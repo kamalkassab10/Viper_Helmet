@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_backgroung"
+    android:orientation="vertical"
+    tools:context=".home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/linyar_top"
+            android:layout_width="match_parent"
+            android:background="@drawable/shape_rect01"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+
+                android:textColor="@color/white"
+                android:textSize="25sp"
+
+                android:textStyle="bold" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true">
+
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:minHeight="?attr/actionBarSize"
+                    android:theme="?attr/actionBarTheme"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/shape_cyrcle"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_person" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_hello"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="30sp"
+                    android:textColor="#959595"
+                    android:textStyle="normal"/>
+                <TextView
+                    android:id="@+id/tv_person_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </LinearLayout>
+
+            <TextView
+
+                android:id="@+id/firebase_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+               android:textColor="@color/white"
+
+                android:textSize="30sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/tv_gps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal_200"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:text="Nothing to Show"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"/>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/btn"
+        android:backgroundTint="@color/layout1"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/cancel"/>
+
+
+
+
+
+
+
+</LinearLayout>

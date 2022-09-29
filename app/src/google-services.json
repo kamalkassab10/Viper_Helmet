@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "926679723437",
+    "firebase_url": "https://helmet-e42ef-default-rtdb.firebaseio.com",
+    "project_id": "helmet-e42ef",
+    "storage_bucket": "helmet-e42ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926679723437:android:a53bd1a8ea8bbf7494c524",
+        "android_client_info": {
+          "package_name": "com.example.nabtastore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926679723437-713hsqd7n7atdos7e37avs6uta2o4geq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn7Z-jEITguLdK-iW7f3Nu2vcM_gU1x0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926679723437-713hsqd7n7atdos7e37avs6uta2o4geq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

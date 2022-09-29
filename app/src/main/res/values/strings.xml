@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MK Safety Helmet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_have_an_account">Are You have an account ?</string>
+    <string name="login_into_your_account">Login into your Account</string>
+</resources>

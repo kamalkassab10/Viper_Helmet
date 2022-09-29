@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".secound">
+    <LinearLayout
+
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:background="@drawable/linyar1"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+        <ImageView
+            android:id="@+id/iv_helmet"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/helmet"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M K"
+            android:textColor="@color/splash2"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Safety Helmet"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="normal"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Designed By"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/splash"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"/>
+        <LinearLayout
+            android:id="@+id/linyar_mohamed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/text1"
+
+            android:layout_marginLeft="7dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Eng : "
+                android:textSize="25sp"
+                android:textColor="@color/idel4"
+                android:layout_margin="5dp"
+                android:textStyle="bold"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Mohamed Elsayed"
+                android:textStyle="bold"
+                android:paddingRight="10dp"
+                android:textColor="@color/splash2"
+                android:paddingTop="5dp"
+                android:background="@drawable/text2"
+                android:textSize="25sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linyar_kamal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/text1"
+
+            android:layout_gravity="end"
+            android:layout_marginRight="7dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Eng : "
+                android:textSize="25sp"
+                android:textColor="@color/idel4"
+                android:layout_margin="5dp"
+                android:textStyle="bold"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Kamal Kassab"
+                android:textStyle="bold"
+                android:paddingRight="10dp"
+                android:textColor="@color/splash2"
+                android:paddingTop="5dp"
+                android:background="@drawable/text2"
+                android:textSize="25sp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
